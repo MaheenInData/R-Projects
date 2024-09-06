@@ -44,9 +44,9 @@ Plot a species accumulation curve for China.
 
 + Output will include:
 
-Bar plots comparing species and BIN counts.
-A Venn diagram of species overlap.
-A species accumulation curve for Chinese bee samples.
+- Bar plots comparing species and BIN counts.
+- A Venn diagram of species overlap.
+- A species accumulation curve for Chinese bee samples.
 
 ## Analysis
 + Species and BIN Counts: A summary of the unique species and BIN richness for both China and the United States.
