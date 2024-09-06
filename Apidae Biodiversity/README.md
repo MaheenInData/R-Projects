@@ -24,10 +24,13 @@ The following R packages are required for running this script:
 You can install the packages using:
 ```r
 install.packages(c("tidyverse", "ggplot2", "VennDiagram", "vegan"))
+```
 
 ## Data
 The data is fetched from the Barcode of Life Data System (BOLD) via an API request for the taxon Apidae.
+```r
 dfBOLD <- read_tsv("http://www.boldsystems.org/index.php/API_Public/combined?taxon=Apidae&format=tsv")
+```
 
 ## Usage
 + Set your working directory to the folder where you want to save outputs:
@@ -58,4 +61,3 @@ The results suggest that:
 
 ## License
 This project is licensed under the MIT License.
-
